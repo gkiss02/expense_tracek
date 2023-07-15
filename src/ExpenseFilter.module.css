@@ -1,0 +1,20 @@
+.year-selector {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-title {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.year {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 5px;
+    outline: none;
+}

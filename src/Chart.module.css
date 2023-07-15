@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
+.visible {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}

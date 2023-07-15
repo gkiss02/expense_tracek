@@ -1,0 +1,14 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.background {
+    background-color: rgb(20, 33, 61, .85);
+    border-radius: 20px;
+    padding: 2px 0;
+}
+
+.expenses-container {
+    margin: 20px;
+}

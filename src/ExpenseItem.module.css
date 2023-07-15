@@ -1,0 +1,47 @@
+:root {
+    --data-margin : 20px;
+    --border-radius : 10px
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #E5E5E5;
+    border: black 1px solid;
+    border-radius: 20px;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.date {
+    margin-left: var(--data-margin);
+    border-radius: var(--border-radius);
+    border: black 1px solid;
+    margin: 10px 20px;
+    margin-right: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(252, 163, 17, .9);
+}
+
+.date p {
+    margin: 0;
+}
+
+.name {
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.price {
+    margin-right: var(--data-margin);
+    background-color: #235B8C;
+    border-radius: 20px;
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.price p {
+    margin: 5px 10px;
+} 
